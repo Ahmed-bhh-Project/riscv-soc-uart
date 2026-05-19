@@ -573,7 +573,7 @@ For questions, collaboration, or permissions regarding this project, please reac
 
 **Last Updated**: December 18, 2025  
 **Project Type**: Academic Project (ENIT)  
-**Author**: Omar Alibi  
+**Author**: Ahmed Ben Hadj Hassine  
 **Supervisor**: Ing. Riadh Bourguiba  
 **RISC-V SoC Version**: 1.0  
 **Vivado Version**: 2022.x or later  
