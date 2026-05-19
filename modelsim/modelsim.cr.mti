@@ -1,0 +1,325 @@
+../vhdl/gpio/pack_gpio_components.vhd {1 {vcom -work gpio -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/gpio/pack_gpio_components.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pack_axi_types
+-- Compiling package pack_gpio_components
+
+} {} {}} ../vhdl/uart/uart_axi.vhd {1 {vcom -work uart -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/uart/uart_axi.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package pack_axi_types
+-- Loading package pack_uart_components
+-- Compiling entity uart_axi
+-- Compiling architecture a of uart_axi
+-- Compiling architecture b of uart_axi
+-- Loading entity uart_axi
+
+} {} {}} ../vhdl/soc/pack_axi_types.vhd {1 {vcom -work soc -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/soc/pack_axi_types.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package pack_axi_types
+
+} {} {}} ../vhdl/riscv/ALU.vhd {1 {vcom -work riscv -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/riscv/ALU.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I_types
+-- Compiling entity ALU
+-- Compiling architecture a of ALU
+
+} {} {}} ../vhdl/riscv/RegBank.vhd {1 {vcom -work riscv -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/riscv/RegBank.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RegBank
+-- Compiling architecture a of RegBank
+
+} {} {}} ../vhdl/soc/system.vhd {1 {vcom -work soc -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/soc/system.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I_types
+-- Loading package pack_axi_types
+-- Loading package pack_RISCV32I_components
+-- Loading package pack_memory_components
+-- Loading package pack_uart_components
+-- Loading package pack_gpio_components
+-- Loading package pack_copro_components
+-- Loading package pack_soc_components
+-- Compiling entity system
+-- Compiling architecture a of system
+-- Loading package std_logic_textio
+-- Loading entity uart_axi
+
+} {} {}} ../vhdl/riscv/controller.vhd {1 {vcom -work riscv -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/riscv/controller.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I_types
+-- Compiling entity controller
+-- Compiling architecture a of controller
+
+} {} {}} ../vhdl/riscv/BE_generator.vhd {1 {vcom -work riscv -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/riscv/BE_generator.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pack_RISCV32I_types
+-- Compiling entity BE_generator
+-- Compiling architecture a of BE_generator
+
+} {} {}} ../vhdl/riscv/trace_generator.vhd {1 {vcom -work riscv -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/riscv/trace_generator.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Compiling entity trace_generator
+-- Compiling architecture a of trace_generator
+
+} {} {}} ../vhdl/riscv/RISCV32I_core.vhd {1 {vcom -work riscv -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/riscv/RISCV32I_core.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I_types
+-- Loading package pack_axi_types
+-- Loading package pack_RISCV32I_components
+-- Compiling entity RISCV32I_core
+-- Compiling architecture a of RISCV32I_core
+
+} {} {}} ../vhdl/memory/ROM_2pNx4s.vhd {1 {vcom -work memory -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/memory/ROM_2pNx4s.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package VCOMPONENTS
+-- Compiling entity ROM_2pNx4s
+-- Compiling architecture a of ROM_2pNx4s
+-- Compiling architecture b of ROM_2pNx4s
+-- Loading entity ROM_2pNx4s
+
+} {} {}} ../vhdl/memory/pack_memory_components.vhd {1 {vcom -work memory -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/memory/pack_memory_components.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pack_axi_types
+-- Compiling package pack_memory_components
+
+} {} {}} ../vhdl/riscv/pack_RISCV32I_types.vhd {1 {vcom -work riscv -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/riscv/pack_RISCV32I_types.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package pack_RISCV32I_types
+
+} {} {}} ../vhdl/copro/copro_axi.vhd {1 {vcom -work copro -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/copro/copro_axi.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package pack_axi_types
+-- Loading package pack_copro_components
+-- Compiling entity copro_axi
+-- Compiling architecture a of copro_axi
+
+} {} {}} ../vhdl/memory/RAM_2pNx4s.vhd {1 {vcom -work memory -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/memory/RAM_2pNx4s.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package VCOMPONENTS
+-- Compiling entity RAM_2pNx4s
+-- Compiling architecture a of RAM_2pNx4s
+-- Compiling architecture b of RAM_2pNx4s
+-- Loading entity RAM_2pNx4s
+
+} {} {}} ../vhdl/soc/bus_axi_1x16.vhd {1 {vcom -work soc -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/soc/bus_axi_1x16.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_axi_types
+-- Compiling entity bus_axi_1x16
+-- Compiling architecture a of bus_axi_1x16
+
+} {} {}} ../vhdl/riscv/pack_RISCV32I_components.vhd {1 {vcom -work riscv -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/riscv/pack_RISCV32I_components.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pack_RISCV32I_types
+-- Loading package pack_axi_types
+-- Compiling package pack_RISCV32I_components
+
+} {} {}} ../vhdl/soc/tb_system.vhd {1 {vcom -work soc -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/soc/tb_system.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pack_axi_types
+-- Loading package pack_soc_components
+-- Compiling entity tb_system
+-- Compiling architecture a of tb_system
+
+} {} {}} ../vhdl/copro/pack_copro_components.vhd {1 {vcom -work copro -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/copro/pack_copro_components.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pack_axi_types
+-- Compiling package pack_copro_components
+
+} {} {}} ../vhdl/uart/uart_rx.vhd {1 {vcom -work uart -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/uart/uart_rx.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity uart_rx
+-- Compiling architecture rtl of uart_rx
+
+} {} {}} ../vhdl/memory/ROM_2pNx4.vhd {1 {vcom -work memory -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/memory/ROM_2pNx4.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ROM_2pNx4
+-- Compiling architecture a of ROM_2pNx4
+
+} {} {}} ../vhdl/riscv/input_data_manager.vhd {1 {vcom -work riscv -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/riscv/input_data_manager.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I_types
+-- Compiling entity input_data_manager
+-- Compiling architecture a of input_data_manager
+
+} {} {}} ../vhdl/uart/uart_tx.vhd {1 {vcom -work uart -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/uart/uart_tx.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity uart_tx
+-- Compiling architecture rtl of uart_tx
+
+} {} {}} ../vhdl/uart/pack_uart_components.vhd {1 {vcom -work uart -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/uart/pack_uart_components.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pack_axi_types
+-- Compiling package pack_uart_components
+
+} {} {}} ../vhdl/riscv/output_data_manager.vhd {1 {vcom -work riscv -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/riscv/output_data_manager.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pack_RISCV32I_types
+-- Compiling entity output_data_manager
+-- Compiling architecture a of output_data_manager
+
+} {} {}} ../vhdl/memory/RAM_2pNx4.vhd {1 {vcom -work memory -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/memory/RAM_2pNx4.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RAM_2pNx4
+-- Compiling architecture a of RAM_2pNx4
+
+} {} {}} ../vhdl/soc/pack_soc_components.vhd {1 {vcom -work soc -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/soc/pack_soc_components.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pack_axi_types
+-- Compiling package pack_soc_components
+
+} {} {}} ../vhdl/riscv/RISCV32I_core_axi.vhd {1 {vcom -work riscv -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/riscv/RISCV32I_core_axi.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I_types
+-- Loading package pack_axi_types
+-- Loading package pack_RISCV32I_components
+-- Compiling entity RISCV32I_core_axi
+-- Compiling architecture a of RISCV32I_core_axi
+
+} {} {}} ../vhdl/riscv/decoder.vhd {1 {vcom -work riscv -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/riscv/decoder.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decoder
+-- Compiling architecture a of decoder
+
+} {} {}} ../vhdl/memory/ROM_2pNx4s_axi.vhd {1 {vcom -work memory -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/memory/ROM_2pNx4s_axi.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pack_axi_types
+-- Loading package pack_memory_components
+-- Compiling entity ROM_2pNx4s_axi
+-- Compiling architecture a of ROM_2pNx4s_axi
+-- Loading package NUMERIC_STD
+-- Loading package VCOMPONENTS
+-- Loading entity ROM_2pNx4s
+
+} {} {}} ../vhdl/gpio/gpio_axi.vhd {1 {vcom -work gpio -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/gpio/gpio_axi.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Loading package pack_axi_types
+-- Loading package pack_gpio_components
+-- Compiling entity gpio_axi
+-- Compiling architecture a of gpio_axi
+
+} {} {}} ../vhdl/memory/RAM_2pNx4s_axi.vhd {1 {vcom -work memory -2008 -explicit -vopt -stats=none J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vhdl/memory/RAM_2pNx4s_axi.vhd
+QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pack_axi_types
+-- Loading package pack_memory_components
+-- Compiling entity RAM_2pNx4s_axi
+-- Compiling architecture a of RAM_2pNx4s_axi
+-- Loading package NUMERIC_STD
+-- Loading package VCOMPONENTS
+-- Loading entity RAM_2pNx4s
+
+} {} {}}

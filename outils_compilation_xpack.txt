@@ -1,0 +1,41 @@
+Compilateur GNU pour Risc-V
+---------------------------
+Il existe de nombreuses versions du compilateur, qui correspondent à différents cas d'utilisation (avec ou sans linux, avec ou sans les bibliothèques standards, etc.). Dans notre cas, on veut compiler des programmes destinés à s'éxécuter sur un processeur nu (bare metal en anglais), c'est à dire sans système d'exploitation d'aucune sorte. 
+
+Le projet X-Pack distribue et maintient une telle version, déjà compilée :
+
+    - Lien du projet Xpack pour le compilateur qui nous intéresse :
+            https://xpack-dev-tools.github.io/riscv-none-elf-gcc-xpack/
+            
+    - Guide d'installation manuelle :
+            https://xpack-dev-tools.github.io/windows-build-tools-xpack/docs/install/#manual-installation
+    
+En résumé, il suffit de télécharger le fichier zip de la dernière version, puis de le décompresser sur le disque, et enfin d'ajouter le chemin d'accès vers les éxécutables dans la variable PATH de windows.
+
+Par exemple, pour la version 14.2.0-3 sur le lecteur D, cela donne :
+    
+        D:\xpacks\riscv-none-elf-gcc\xpack-riscv-none-elf-gcc-14.2.0-3\bin
+
+Windows Build Tools
+-------------------
+Sous windows, la gestion des fichiers de compilation automatisée de type makefile nécessite l'installation de programmes complémentaires qui apportent les même fonctionnalité que sous Linux.
+Encore une fois, le projet XPack distribue et maintient une version compilée de ces outils pour le Risc-V.
+
+    - Lien du projet Xpack pour les Windows Build Tools :
+            https://xpack-dev-tools.github.io/windows-build-tools-xpack/
+            
+    - Guide d'installation manuelle :
+            https://xpack-dev-tools.github.io/windows-build-tools-xpack/docs/install/#manual-installation
+    
+En résumé, comme précédemment, il suffit de télécharger le fichier zip de la dernière version, puis de le décompresser sur le disque, et enfin d'ajouter le chemin d'accès vers les éxécutables dans la variable PATH de windows.
+
+Par exemple, pour la version 4.4.1-3 sur le lecteur D, cela donne :
+
+    D:\xpacks\windows-build-tools\xpack-windows-build-tools-4.4.1-3\bin
+
+On Chip Debugguer
+-----------------
+Enfin, il existe des outils qui permettent de déboguer un programme sur un processeur physique (FPGA ou ASIC), à travers l'interface JTAG. Pour cela, le processeur doit intégrer une IP JTAG que l'on connecte à une sonde reliée au port USB d'un ordinateur PC. Elle permet d'exécuter un programme pas-à-pas, de placer des points d'arrêt, ou même d'espioner le contenu des registres internes du processeur, des variables ou même de zones mémoires.
+Nous n'utilserons pas cette solution, car nous n'avons pas d'IP JTAG dans notre processeur, mais nous rappelons, à toute fin utile, que le projet Xpack propose une version de ces pour le Risc-V :
+
+    https://xpack-dev-tools.github.io/openocd-xpack/

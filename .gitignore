@@ -1,0 +1,234 @@
+# RISC-V SoC Project .gitignore
+
+# ===========================
+# VHDL Source Files (Protected Academic Work)
+# ===========================
+vhdl/**/*.vhd
+vhdl/**/*.vhdl
+*.vhd
+*.vhdl
+*.xlsx
+
+# ===========================
+# Vivado Generated Files
+# ===========================
+*.jou
+*.log
+*.backup.*
+*.debug
+*.cache/
+*.data/
+*.runs/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.gen/
+*.tmp/
+*.hbs
+*.pb
+*.wdb
+*.wcfg
+
+# Vivado project specific
+vivado2/*.jou
+vivado2/*.log
+vivado2/vivado.cache/
+vivado2/vivado.hw/
+vivado2/vivado.ip_user_files/
+vivado2/vivado.runs/
+vivado2/vivado.sim/
+vivado2/vivado.gen/
+vivado2/.Xil/
+vivado2/webtalk*
+vivado2/usage_statistics_webtalk.*
+
+# ===========================
+# ModelSim/QuestaSim Files
+# ===========================
+modelsim/work/
+modelsim/transcript
+modelsim/vsim.wlf
+modelsim/vsim.dbg
+modelsim/*.wlf
+modelsim/*.vstf
+modelsim/*.log
+modelsim/*.trc
+modelsim/*.mpf_*
+modelsim/_info
+modelsim/_lib.qdb
+modelsim/_lib*.qdb
+modelsim/_lib*.qpg
+modelsim/_lib*.qtl
+modelsim/_vmake
+modelsim/*/_info
+modelsim/*/_lib.qdb
+modelsim/*/_lib*.qdb
+modelsim/*/_lib*.qpg
+modelsim/*/_lib*.qtl
+modelsim/*/_vmake
+modelsim/*/_temp/
+modelsim/*/_tempmsg/
+modelsim/*/@_opt/
+modelsim/*/*_dbcontainer/
+
+# ===========================
+# Compilation Outputs
+# ===========================
+# Memory images (generated from programs)
+prog/**/*.mem
+prog/**/*.bin
+prog/**/*.elf
+prog/**/*.o
+prog/**/*.out
+prog/**/*.dis
+prog/**/*.lst
+prog/**/*.hex
+prog/**/*.dump
+
+# Keep template .mem files if they exist
+!prog/**/template*.mem
+!prog/**/example*.mem
+
+# ===========================
+# Toolchain and Build Files
+# ===========================
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.temp
+
+# Build directories
+build/
+bin/
+obj/
+output/
+
+# ===========================
+# OS Generated Files
+# ===========================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+.directory
+
+# ===========================
+# IDE and Editor Files
+# ===========================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Vim
+*.swp
+*.swo
+Session.vim
+
+# Emacs
+*~
+\#*\#
+
+# ===========================
+# Documentation Build Files
+# ===========================
+*.pdf
+!docs/**/*.pdf
+
+# LaTeX
+*.aux
+*.lof
+*.lot
+*.fls
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# ===========================
+# Compressed Files
+# ===========================
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Keep important compressed documentation
+!docs/**/*.zip
+!docs/**/*.tar.gz
+
+# ===========================
+# Xilinx License Files
+# ===========================
+*.lic
+
+# ===========================
+# Custom Project Specifics
+# ===========================
+# Backup directories
+backup/
+old/
+archive/
+
+# Test results
+test_results/
+*.result
+
+# Waveform database
+*.vcd
+*.saif
+*.fsdb
+
+# ===========================
+# Keep Important Files
+# ===========================
+# Keep README and documentation
+!README.md
+!*.txt
+!*.md
+
+# Keep source files
+!*.v
+!*.sv
+!*.s
+!*.S
+!*.c
+!*.h
+!*.ld
+!*.xdc
+!*.do
+
+# Keep initial memory templates (if any)
+!**/I0_init.mem
+!**/D1_init.mem

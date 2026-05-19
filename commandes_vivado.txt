@@ -1,0 +1,3 @@
+Penser à ouvrir le design placé, routé.
+
+source "J:/2025-2026/3age2/BE1/Pour_les_etudiants/BE1/seance10/vivado1/maj_mem.tcl"
